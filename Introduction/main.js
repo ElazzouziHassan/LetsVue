@@ -11,6 +11,11 @@ const main = Vue.createApp({
       nickname: "Wizardy",
       str:''
     }
+  },
+  methods: {
+    changeName() {
+      this.name = "Its just Hassan :)"
+    }
   }
 })
 
