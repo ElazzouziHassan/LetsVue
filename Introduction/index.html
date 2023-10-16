@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <title>Lets Vue | Day 1 - The basics</title>
+</head>
+<body>
+  <div class="app">
+    <h2 align="center">
+      Hello, World. 
+      <br>
+      I'm {{ name }} 
+      <br>
+      A.K.A {{ nickname }}
+    </h2>
+    <p align="center">
+      <span>{{ str }}</span><br>
+      <button v-on:click="str = 'Hello, Lets vue !'">Say Hi !</button>
+    </p>
+    
+  </div>
+  <!-- main app link -->
+  <script src="main.js"></script>
+</body>
+</body>
+</html>
