@@ -9,7 +9,7 @@ const main = Vue.createApp({
     return {
       name: "EL AZZOUZI HASSAN",
       nickname: "Wizardy",
-      str:''
+      str: ''
     }
   },
   methods: {
