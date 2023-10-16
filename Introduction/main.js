@@ -13,8 +13,9 @@ const main = Vue.createApp({
     }
   },
   methods: {
-    changeName() {
-      this.name = "Its just Hassan :)"
+    changeName(name) {
+      // this.name = "Its just Hassan :)"
+      this.name = name;
     }
   }
 })
