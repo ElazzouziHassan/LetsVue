@@ -7,6 +7,7 @@
   <title>Lets Vue | Day 1 - The basics</title>
 </head>
 <body>
+
   <div class="app">
     <h2 align="center">
       Hello, World. 
@@ -20,8 +21,17 @@
       <button @click="changeName('Just Hassan :)')">change my name</button>
     </p>    
   </div>
+
+  <div class="app-1">
+    <button @click="count++">
+      Count is: {{ count }}
+    </button>
+  </div>
+
+
   <!-- main app link -->
   <script src="main.js"></script>
+  <script src="app1.js"></script>
 </body>
 </body>
 </html>
